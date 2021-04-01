@@ -1,8 +1,10 @@
 import React from "react";
 import Link from "next/link";
+import MetaHeader from "foundations/MetaHeader";
 
 const Home = () => (
     <>
+        <MetaHeader title="Next - Nextron (with-typescript-tailwindcss)" />
         <div>
             <div className="grid grid-col-1 text-2xl w-full text-center">
                 <img className="ml-auto mr-auto" src="/images/logo.png" />
